@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "checkout", "checkout\checkout.csproj", "{21861515-15B6-4930-925B-8C8E083AA579}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "checkout.tests", "checkout.tests\checkout.tests.csproj", "{AA4AFE52-96CF-4BC4-8ACE-98DB6D6C152D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{21861515-15B6-4930-925B-8C8E083AA579}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21861515-15B6-4930-925B-8C8E083AA579}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21861515-15B6-4930-925B-8C8E083AA579}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA4AFE52-96CF-4BC4-8ACE-98DB6D6C152D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA4AFE52-96CF-4BC4-8ACE-98DB6D6C152D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA4AFE52-96CF-4BC4-8ACE-98DB6D6C152D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA4AFE52-96CF-4BC4-8ACE-98DB6D6C152D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

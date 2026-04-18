@@ -25,17 +25,7 @@ internal class Checkout : ICheckout
         foreach (var (item, count) in _scannedItems)
         {
             var itemPricing = _pricingRules.ItemPrices.FirstOrDefault(itemPrice => itemPrice.SKU == item);
-            var specialItemPricing =
-                _pricingRules.SpecialItemPrices.FirstOrDefault(specialPrice => specialPrice.SKU == item);
-
-            if (specialItemPricing is not null)
-            {
-                total += PriceCalculator.CalculateTotalPrice(itemPricing, specialItemPricing, count);
-            }
-            else
-            {
-                total += PriceCalculator.CalculateTotalPrice(itemPricing, count);
-            }
+            total += PriceCalculator.CalculateItemTotal(itemPricing, count);
         }
 
         return total;
