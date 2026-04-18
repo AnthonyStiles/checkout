@@ -1,7 +1,7 @@
 namespace checkout;
 
-interface ICheckout
+internal interface ICheckout
 {
-    void Scan(string item);
     int GetTotalPrice();
+    void Scan(string item);
 }
