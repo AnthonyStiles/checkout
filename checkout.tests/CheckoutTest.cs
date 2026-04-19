@@ -53,14 +53,6 @@ public class CheckoutTest
         var total = checkout.GetTotalPrice();
         Assert.Equal(20, total);
     }
-    
-    [Fact]
-    public void Checkout_GetTotalPrice_ZeroScannedItems_ShouldReturnCorrectValue()
-    {
-        var checkout = new Checkout(_pricingRules);
-        var total = checkout.GetTotalPrice();
-        Assert.Equal(0, total);
-    }
 
     [Fact]
     public void Checkout_GetTotalPrice_SingleItem_ShouldReturnCorrectValue()
@@ -69,6 +61,14 @@ public class CheckoutTest
         checkout.Scan("A");
         var total = checkout.GetTotalPrice();
         Assert.Equal(10, total);
+    }
+
+    [Fact]
+    public void Checkout_GetTotalPrice_ZeroScannedItems_ShouldReturnCorrectValue()
+    {
+        var checkout = new Checkout(_pricingRules);
+        var total = checkout.GetTotalPrice();
+        Assert.Equal(0, total);
     }
 
     [Fact]
