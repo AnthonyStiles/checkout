@@ -3,7 +3,7 @@ using checkout.Data;
 
 namespace checkout;
 
-internal class Checkout : ICheckout
+public class Checkout : ICheckout
 {
     private readonly PricingRules _pricingRules;
     private readonly Dictionary<string, int> _scannedItems = new();
