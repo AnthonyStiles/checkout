@@ -43,7 +43,7 @@ internal class Checkout : ICheckout
 
     private void ValidateScannedItem(string item)
     {
-        if (string.IsNullOrEmpty(item))
+        if (string.IsNullOrWhiteSpace(item))
         {
             throw new ArgumentException("item is required.", nameof(item));
         }
