@@ -72,7 +72,7 @@ public class CheckoutTest
     }
 
     [Fact]
-    public void Checkout_Scan_MultipleValidItems_ShouldSucceed()
+    public void Checkout_Scan_MultipleItems_ShouldSucceed()
     {
         var checkout = new Checkout(_pricingRules);
         checkout.Scan("A");
