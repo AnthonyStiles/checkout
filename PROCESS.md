@@ -66,3 +66,7 @@ that without knowing the exact scenario which is why I kept it as a static metho
 - There is no validation for the item pricing information given in the constructor so its assumed that the
 data is correct. I'm not sure where the input would be coming from for this which is why I didn't want to
 complicate it with validations.
+
+- Currently the dictionary I use to maintain the scanned items it case sensitive. I could make it case
+insentitive but I'm not sure about the exact format of the SKUs and wouldn't want to assume "A" is the same 
+as "a".
