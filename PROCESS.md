@@ -3,7 +3,7 @@
 Firstly I wanted to understand the problem. So I did a calculation to see it it matched up with the
 description. I also thought about what different parts of data I would need to represent.
 
-![calculation image](notes/IMG_3615.jpeg)
+<img src="notes/IMG_3615.jpeg" alt="calculation image" width="50%" />
 
 # Visualising the problem
 
@@ -11,7 +11,7 @@ I find creating a diagram of the problem helps me understand it so I drew it out
 solution. In doing this I realise there was two separate parts to the problem and that I will need an
 algorithm to calculate the total price.
 
-![visualisation image](notes/IMG_3616.jpeg)
+<img src="notes/IMG_3616.jpeg" alt="visualisation image" width="50%" />
 
 # Solving the problem
 
@@ -29,19 +29,19 @@ I then gave the calculation a try with a simple scenario and found that it worke
 I then thought of another scenario where I would have an item left over when calculating the special price. 
 From this I found a way I could calculate the total price.
 
-![solving the problem image](notes/IMG_3617.jpeg)
+<img src="notes/IMG_3617.jpeg" alt="solving the problem image" width="50%" />
 
 # Testing the solution
 
 Once I had a working solution I tested it with a few different scenarios.
 
-![testing the solution image](notes/IMG_3618.jpeg)
+<img src="notes/IMG_3618.jpeg" alt="testing the solution image" width="50%" />
 
 # Planning the code
 
 The solution I came up with was working so I planned out the code with some pseudocode.
 
-![testing the solution image](notes/IMG_3619.jpeg)
+<img src="notes/IMG_3619.jpeg" alt="testing the solution image" width="50%" />
 
 # Implementation
 
